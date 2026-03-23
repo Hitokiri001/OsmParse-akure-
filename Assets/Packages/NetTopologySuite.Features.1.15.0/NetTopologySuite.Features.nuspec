@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>NetTopologySuite.Features</id>
+    <version>1.15.0</version>
+    <title>NTS - Topology Suite - Features</title>
+    <authors>NetTopologySuite - Team</authors>
+    <owners>NetTopologySuite - Team</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/NetTopologySuite/NetTopologySuite.Features/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/NetTopologySuite/NetTopologySuite.Features</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/NetTopologySuite/GeoAPI/develop/icon.png</iconUrl>
+    <description>A feature is a combination of spatial object and attribute data.
+      For this package attribute data is stored in AttributeTable objects.
+      These are combined with IGeometry objects to form a Feature.
+      A FeatureCollection is a collection of features.</description>
+    <summary>A features packages for the NTS Topology Suite</summary>
+    <copyright>Copyright 2007-2015</copyright>
+    <language>en-US</language>
+    <tags>NTS Topology OGC SFS</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework3.5-Client">
+        <dependency id="GeoAPI" version="1.7.5" />
+      </group>
+      <group targetFramework=".NETFramework4.0-Client">
+        <dependency id="GeoAPI" version="1.7.5" />
+      </group>
+      <group targetFramework=".NETFramework4.0.3-Client">
+        <dependency id="GeoAPI" version="1.7.5" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="GeoAPI" version="1.7.5" />
+      </group>
+      <group targetFramework=".NETStandard1.0">
+        <dependency id="GeoAPI" version="1.7.5" />
+        <dependency id="System.Diagnostics.Debug" version="4.3.0" />
+        <dependency id="System.Linq" version="4.3.0" />
+        <dependency id="System.Text.RegularExpressions" version="4.3.0" />
+        <dependency id="System.Xml.ReaderWriter" version="4.3.0" />
+        <dependency id="System.Xml.XDocument" version="4.3.0" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="GeoAPI" version="1.7.5" />
+        <dependency id="System.Diagnostics.Debug" version="4.3.0" />
+        <dependency id="System.IO.FileSystem" version="4.3.0" />
+        <dependency id="System.Linq" version="4.3.0" />
+        <dependency id="System.Text.RegularExpressions" version="4.3.0" />
+        <dependency id="System.Xml.ReaderWriter" version="4.3.0" />
+        <dependency id="System.Xml.XDocument" version="4.3.0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="GeoAPI" version="1.7.5" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
