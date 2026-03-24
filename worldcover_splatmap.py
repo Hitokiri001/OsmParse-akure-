@@ -2,7 +2,7 @@
 WorldCover Splatmap Generator
 ==============================
 Reads the ESA WorldCover GeoTIFF and generates one splatmap PNG per chunk
-for use with the AkuraTerrain URP shader.
+for use with the Terrain URP shader.
 
 Each splatmap is a 33x33 RGBA PNG:
   R = Grassland / Cropland      → _GrassTexture  in shader
