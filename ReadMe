@@ -1,0 +1,19 @@
+Edit python files to match the details of your region before running
+
+Splitter.py is important for unity to split osm data into chunks so we don't load large osm files into ram at once 
+
+Note the origin Lat and Longitude during the whole process its going to be needed in unity 
+
+NugetV3 doesn't work for this project, ( Might be an Osmium thing) anyways please never install nuget v3 or update the dll in plugins folder so the project works fine. Also includes downloading the package from Nuget, it will overwrite the dll in the plugins folder
+
+Vegetation spawns as well with placeholders replace with billboards or 3d mesh prefabs
+
+Roads spawned normally using the terraforming logic from road architect 
+
+Light custom shader is provided but will be updated in subsequent time
+
+Same for trees
+
+Currently working on building integration but open to aswering questions 
+
+
