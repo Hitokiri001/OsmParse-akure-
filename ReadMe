@@ -4,7 +4,7 @@ Splitter.py is important for unity to split osm data into chunks so we don't loa
 
 Note the origin Lat and Longitude during the whole process its going to be needed in unity 
 
-NugetV3 doesn't work for this project, ( Might be an Osmium thing) anyways please never install nuget v3 or update the dll in plugins folder so the project works fine. Also includes downloading the package from Nuget, it will overwrite the dll in the plugins folder
+Protobuf-net.dll v3 doesn't work for this project, ( Might be an Osmium thing) anyways please never install protobuf-net v3 from nuget or update the dll in plugins folder so the project works fine. Also includes downloading the package from Nuget, it will overwrite the dll in the plugins folder. Positively don't download or update from Nuget
 
 Vegetation spawns as well with placeholders replace with billboards or 3d mesh prefabs
 
